@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary: #000201;
   --ifm-color-primary-dark: rgb(144, 223, 205);
   --ifm-color-primary-darker: rgb(31, 165, 136);
   --ifm-color-primary-darkest: rgb(26, 136, 112);
@@ -25,6 +25,7 @@
 
 .navbar{
   background-color: #30b6b2;
+  justify-content: start;
 }
 
 .menu{
@@ -59,6 +60,168 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+[data-theme='dark'] .table-of-contents__link:hover, .table-of-contents__link:hover code, .table-of-contents__link--active, .table-of-contents__link--active code {
+  color: #CCC;
+}
+
+[data-theme = 'dark'] .navbar__link:hover, .navbar__link--active{
+  color: #CCC;
+}
+
 a{
   color: #30b6b2;
+}
+
+.button{
+  margin-right: 25px;
+  border-radius: 3px;
+  border: 0px;
+  padding: 0px;
+}
+
+.grid{
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.button:hover{
+  filter: brightness(0.75);
+}
+
+[data-theme = 'dark'] .pagination-nav__label:hover{
+  color: #CCC;
+}
+
+[data-theme = 'dark'] .pagination-nav__item:hover{
+  color: #CCC;
+}
+
+.pagination-nav__item{
+  color: #30b6b2;
+}
+
+[data-theme = 'dark'] .pagination-nav__link:hover{
+  color: #CCC;
+}
+
+[data-theme = "dark"] .pagination-nav__item .pagination-nav__item--next:hover{
+  color: #CCC;
+}
+
+.btn{
+  margin-right: 0.5px;
+  width: 200px;
+  border-radius: 100px;
+  flex-wrap: wrap;
+}
+
+.btn:hover{
+  filter: brightness(0.75);
+}
+
+.wrapper{
+  background-color: #30b6b2;
+  min-width: 200px;
+  height: 60px;
+  margin-left: 20px;
+  border-radius: 30px;
+  justify-items: center;
+  overflow: hidden;
+  display: inline-block;
+  justify-items: center;
+  justify-content: center;
+  flex: 10%;
+}
+
+.heading{
+  position:relative;
+  color: white;
+  position: relative;
+  margin-left: 10px;
+  float: right;
+  clear: both;
+  margin-right: 10px;
+  margin-bottom: 50%;
+  margin-top: 7%;
+}
+
+.wrapper:hover{
+  filter: brightness(0.75);
+}
+
+.img{
+  margin-left: 10px;
+  width: 35px;
+  margin-bottom: 50%;
+  margin-top: 5%;
+  padding: none;
+}
+
+.pagination-nav__link{
+  display: none;
+}
+
+.react-toggle{
+  justify-self: flex-end;
+  margin-left: 1190px;
+}
+
+.navbar__items--right{
+  flex-direction: row-reverse;
+}
+
+html {
+  min-width: 1680px;
+  position: relative;
+}
+
+.img-main{
+  width: 50px;
+  height: 50px;
+  margin-left: 30%;
+  padding: 0%;
+  margin-top: 10px;
+}
+
+.wrapper-main{
+  background-color: #30b6b2;
+  width: 120px;
+  height: 120px;
+  margin-left: 20px;
+  border-radius: 30px;
+  overflow: hidden;
+  display: inline-block;
+  flex: 10%;
+  justify-items: center;
+}
+
+.heading-main{
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.wrapper-main:hover{
+  filter: brightness(0.85);
+}
+
+.footer__link-item:hover{
+  color: #30b6b2;
+  text-decoration: none;
+}
+
+[data-theme = "dark"] .menu{
+  background-color: #403c44;
+}
+
+html[data-theme='dark']{
+  --ifm-background-color: #252526;
+}
+
+[data-theme='dark'] .navbar{
+  background-color: darkcyan;
 }

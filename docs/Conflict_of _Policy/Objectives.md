@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# objectives 
+# Objectives 
 
 The purpose of this Policy is to clearly define the Conflict of Interest with a clear and concise
 Framework for identification of conflicts of interest and how they shall be managed.

@@ -2,34 +2,63 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Welcome to SDFC Intranet Documentation
 
-Let's discover **Docusaurus in less than 5 minutes**.
+<div class="grid">
+<a href="/docs/Intranet_Features/Home/gallery/gallery" >
+<div class="wrapper-main">
+<img src="/img/gallerybutton.png" class="img-main">
+</img>
+<p class="heading-main">Gallery</p>
+</div>
+</a>
+<a href="/docs/Intranet_Features/Home/bookings/bookings" >
+<div class="wrapper-main">
+<img src="/img/testbuttons.png" class="img-main">
+</img>
+<p class="heading-main">Bookings</p>
+</div>
+</a>
+<a href="/docs/Intranet_Features/Home/directory/directory" >
+<div class="wrapper-main">
+<img src="/img/directory.png" class="img-main">
+</img>
+<p class="heading-main">Directory</p>
+</div>
+</a>
+</div>
 
-## Getting Started
+**Click on the button of your choosing to access a SDFC particular app**
 
-Get started by **creating a new site**.
+<div class="grid">
+<a href="/docs/Intranet_Features/Home/home" >
+<div class="wrapper-main">
+<img src="/img/favicon.ico" class="img-main">
+</img>
+<p class="heading-main">Home</p>
+</div>
+</a>
+<a href="/docs/Intranet_Features/quicklinks/quicklinks" >
+<div class="wrapper-main">
+<img src="/img/quicklink.ico" class="img-main">
+</img>
+<p class="heading-main">Quicklinks</p>
+</div>
+</a>
+<a href="/docs/Intranet_Features/requests/Requests" >
+<div class="wrapper-main">
+<img src="/img/requests.ico" class="img-main">
+</img>
+<p class="heading-main">Requests</p>
+</div>
+</a>
+<a href="/docs/Intranet_Features/Events" >
+<div class="wrapper-main">
+<img src="/img/events.ico" class="img-main">
+</img>
+<p class="heading-main">Events</p>
+</div>
+</a>
+</div>
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+**Click on these buttons to access any of the apps from the sidebar**

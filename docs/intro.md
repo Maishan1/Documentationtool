@@ -33,28 +33,28 @@ sidebar_position: 1
 <div class="grid">
 <a href="/docs/Intranet_Features/Home/home" >
 <div class="wrapper-main">
-<img src="/img/favicon.ico" class="img-main">
+<img src="/img/home.svg" class="img-main">
 </img>
 <p class="heading-main">Home</p>
 </div>
 </a>
 <a href="/docs/Intranet_Features/quicklinks/quicklinks" >
 <div class="wrapper-main">
-<img src="/img/quicklink.ico" class="img-main">
+<img src="/img/chevron-down.svg" class="img-main">
 </img>
 <p class="heading-main">Quicklinks</p>
 </div>
 </a>
 <a href="/docs/Intranet_Features/requests/Requests" >
 <div class="wrapper-main">
-<img src="/img/requests.ico" class="img-main">
+<img src="/img/message.svg" class="img-main">
 </img>
 <p class="heading-main">Requests</p>
 </div>
 </a>
 <a href="/docs/Intranet_Features/Events" >
 <div class="wrapper-main">
-<img src="/img/events.ico" class="img-main">
+<img src="/img/calendar.svg" class="img-main">
 </img>
 <p class="heading-main">Events</p>
 </div>

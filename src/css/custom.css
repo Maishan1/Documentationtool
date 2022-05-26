@@ -225,3 +225,29 @@ html[data-theme='dark']{
 [data-theme='dark'] .navbar{
   background-color: darkcyan;
 }
+
+[data-theme = 'dark'] .wrapper-main{
+  background-color: darkcyan;
+  width: 120px;
+  height: 120px;
+  margin-left: 20px;
+  border-radius: 30px;
+  overflow: hidden;
+  display: inline-block;
+  flex: 10%;
+  justify-items: center;
+
+}
+
+[data-theme = 'dark'] .navbar__item:hover{
+  color: white;
+}
+
+.img-main-bottom{
+  width: 50px;
+  height: 50px;
+  margin-left: 30%;
+  padding: 0%;
+  margin-top: 10px;
+}
+

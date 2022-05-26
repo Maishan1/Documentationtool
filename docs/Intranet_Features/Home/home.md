@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
+label: "Home Page"
 ---
 
-# HomePage
+# Home Page
 
 ## Left Column
 

@@ -250,3 +250,8 @@ html[data-theme='dark']{
   padding: 0%;
   margin-top: 10px;
 }
+
+.row .col.col--3 {
+  --ifm-col-width: 35%;
+  padding-left: 200px;
+}

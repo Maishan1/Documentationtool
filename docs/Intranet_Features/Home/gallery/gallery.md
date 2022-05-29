@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Purpose
+# Gallery Overview
 
 The gallery section is designed to provides the user with access to various photos that come in the form of albums.
 
